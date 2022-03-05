@@ -18,15 +18,11 @@ dependencies:
   get: ^4.6.1                           
   get_storage: ^2.0.3                   
   google_fonts: ^2.2.0                  
-  supabase: ^0.2.10                     
   image_picker: ^0.8.4+6                 
-  image_cropper: ^1.4.1
-  table_calendar: ^3.0.3                
-  flutter_native_image: ^0.0.6+1        
   cupertino_icons: ^1.0.2           
-  
-dev_dependencies:
+  image_cropper: ^1.5.0
 
+dev_dependencies:
   flutter_lints: ^1.0.0
   flutter_test:
     sdk: flutter

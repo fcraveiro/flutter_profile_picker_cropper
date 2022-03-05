@@ -1,5 +1,6 @@
+import 'package:flutter_profile_picker_cropper/picker_cropper.dart';
+
 import '/services/constants.dart';
-import '/menu.dart';
 import '/services/rotas.dart';
 import 'package:flutter_localizations/flutter_localizations.dart';
 import 'package:google_fonts/google_fonts.dart';
@@ -51,22 +52,9 @@ class MyApp extends StatelessWidget {
       ],
       locale: const Locale('pt', 'BR'),
       initialRoute: '/',
-      unknownRoute: GetPage(name: '/notfound', page: () => const Menu()),
+      unknownRoute:
+          GetPage(name: '/notfound', page: () => const PickerCropper()),
       getPages: rotas(),
     );
   }
 }
-
-
-
-
-
-/*
-  @override
-  Widget build(BuildContext context) {
-    SystemChrome.setSystemUIOverlayStyle(
-      const SystemUiOverlayStyle(
-        statusBarColor: Color(0xFF48426D),
-      ),
-    );
-*/
